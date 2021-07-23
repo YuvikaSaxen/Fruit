@@ -50,7 +50,7 @@ class Form{
 
 
 
-            var playerInfoRef = database.ref('players');
+            var playerInfoRef = database.ref('player');
             playerInfoRef.remove();
 
             
